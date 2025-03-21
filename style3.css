@@ -1,6 +1,22 @@
 
-
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-size: 20;
+    color: #5d5d5d;
+}
 .header{
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+}
+.header img{
+    display: block;     
+    margin: 0 auto;
+    width: 100px;  
+    height: auto;  
+}
+
+.header h1, p{  
+    text-align: center
 }
